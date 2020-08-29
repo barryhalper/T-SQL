@@ -1,0 +1,10 @@
+Alter Procedure ProcAssocPages
+
+As
+
+Update tblAssociationPages 
+
+Set  n_assoc_id=Convert(int,assoc_id),
+       n_assoc_sub_id=Convert(int,assoc_sub_id)
+
+return

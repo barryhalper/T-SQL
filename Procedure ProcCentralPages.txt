@@ -1,0 +1,10 @@
+Alter Procedure ProcCentralPages
+
+As
+
+Update tblCentralPages 
+
+Set  n_central_gov_id=Convert(int, central_gov_id),
+       n_sub_id=Convert(int, sub_id)
+
+return
