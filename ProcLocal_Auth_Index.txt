@@ -1,8 +1,0 @@
-Alter Procedure ProcLocal_Auth_Index
-
-As
-
-Update tblCouncilPages Set n_council_id=Convert(int,council_id)
-
-return 
-
