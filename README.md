@@ -1,2 +1,4 @@
 # T-SQL
- Misc  SQL Files
+## Misc Repository of Transace SQL Files
+- Stored Procedures
+- User Defined Functions
